@@ -20,8 +20,9 @@ Same authors as Pluribus. Amricans really like Texas hold'em!
 Similar techniques. CFR is in ramdom look ahead style.
 
 ### [Deepstack](https://arxiv.org/pdf/1701.01724.pdf)
-Continual resolving: look ahead and replace leaf node value with neural network evaluation
-
+Continual resolving: 
+CFR-style look ahead and replace leaf node value with neural network evaluation
+A value function network tries to mimic the solved regret (AlphaZero style training)
 
 ## Theory
 ### CFR

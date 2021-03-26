@@ -1,4 +1,4 @@
-# papersharing
+# Paper sharing
 A repository for sharing mater's work in the related research in game AI. English is recommended for the readme file.
 
 ## Examplary work
@@ -27,6 +27,12 @@ A value function network tries to mimic the solved regret (AlphaZero style train
 ## Theory
 ### CFR
 
+### MCTS
+[Convergence of Monte Carlo Tree Search in Simultaneous Move Games](https://papers.nips.cc/paper/2013/file/1579779b98ce9edb98dd85606f2c119d-Paper.pdf)
+This proves certain forms of MCTS converges into approximate-Nash equilibrium.
+
+[Non-Asymptotic Analysis of Monte Carlo Tree Search](https://arxiv.org/pdf/1902.05213.pdf)
+The work show that MCTS, combined with nearest neighbor supervised learning, acts as a “policy improvement” operator
 ## Technical Details
 ### Shuffling
 * Klaverjas.pdf: 一种流行于德语区的扑克游戏，按墩打，拣正分，只用 4x8=32 张牌，某些情况下要求必须要出比之前大的牌（这有点像斗地主）。这是一本书太长没必要看，只要看 Springer 上他们自己写的简介就够了 https://link.springer.com/chapter/10.1007/978-3-030-31978-6_9 。

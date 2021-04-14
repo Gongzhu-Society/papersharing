@@ -26,6 +26,8 @@ A value function network tries to mimic the solved regret (AlphaZero style train
 
 ## Theory
 ### CFR
+[Regret Minimization in Games with Incomplete Information](http://poker.cs.ualberta.ca/publications/NIPS07-cfr.pdf)
+Prove CFR converges into $\epsilon$-approximate-Nash equilibrium. Published on NIPS 2007: a very early attempt to solve Texas hold'em by CFR.
 
 ### MCTS
 [Convergence of Monte Carlo Tree Search in Simultaneous Move Games](https://papers.nips.cc/paper/2013/file/1579779b98ce9edb98dd85606f2c119d-Paper.pdf)
